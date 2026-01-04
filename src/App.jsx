@@ -14,7 +14,7 @@ const App = () => {
 
   return (
     <>
-      <Loader isVisible={showLoader} onComplete={() => setShowLoader(false)} />
+      {/* <Loader isVisible={showLoader} onComplete={() => setShowLoader(false)} /> */}
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />

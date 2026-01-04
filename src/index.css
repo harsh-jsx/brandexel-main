@@ -1,1 +1,31 @@
 @import "tailwindcss";
+
+@font-face {
+  font-family: "Helvet";
+  src: url("../public/fonts/HelveticaNowDisplay.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Martiant";
+  src: url("../public/fonts/MartianMono.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PPE";
+  src: url("../public/fonts/PPEditorialNew.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.diff {
+  color: rgb(180, 168, 143);
+  margin-inline: 101px;
+  font-weight: bold;
+}
+img {
+  transform-origin: center;
+  will-change: transform;
+}
